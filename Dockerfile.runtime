@@ -1,0 +1,12 @@
+FROM hub.furycloud.io/mercadolibre/go:runtime-mini
+RUN adduser --disabled-password --gecos "" -u 1000 appuser
+
+FROM hub.furycloud.io/mercadolibre/distroless-base:debian-11
+COPY --from=0 /etc/passwd /etc/passwd
+USER 1000
+EXPOSE 8080
+ENV GO_ENVIRONMENT=production
+ENV HOST=0.0.0.0
+ENV PORT=8080
+ADD ./ /apps
+ENTRYPOINT ["/apps/app"]

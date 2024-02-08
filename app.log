@@ -1,0 +1,393 @@
+[ts:2024-02-06T19:49:01.522108Z][level:info][caller:fury/fury.go:159][msg:running][address:[::]:8080]
+Tiempo de inicio: 2024-02-06 16:49:03.148089 -0300 -03 m=+1.643785437
+Tiempo de inicio: 2024-02-06 16:49:03.148207 -0300 -03 m=+1.643903505
+Tiempo de inicio: 2024-02-06 16:49:03.14825 -0300 -03 m=+1.643946701
+Tiempo de inicio: 2024-02-06 16:49:03.148792 -0300 -03 m=+1.644489102
+Tiempo de inicio: 2024-02-06 16:49:03.149577 -0300 -03 m=+1.645273772
+Tiempo de inicio: 2024-02-06 16:49:03.149767 -0300 -03 m=+1.645464156
+Tiempo de inicio: 2024-02-06 16:49:03.149775 -0300 -03 m=+1.645471948
+Tiempo de inicio: 2024-02-06 16:49:03.149905 -0300 -03 m=+1.645601502
+Tiempo de inicio: 2024-02-06 16:49:03.149791 -0300 -03 m=+1.645487594
+Tiempo de inicio: 2024-02-06 16:49:03.149775 -0300 -03 m=+1.645471565
+Tiempo de inicio: 2024-02-06 16:49:04.7411 -0300 -03 m=+3.236748727
+Tiempo de inicio: 2024-02-06 16:49:04.75382 -0300 -03 m=+3.249468670
+Tiempo de inicio: 2024-02-06 16:49:04.781299 -0300 -03 m=+3.276946857
+Tiempo de inicio: 2024-02-06 16:49:04.787941 -0300 -03 m=+3.283588752
+Tiempo de inicio: 2024-02-06 16:49:04.815199 -0300 -03 m=+3.310845330
+Tiempo de inicio: 2024-02-06 16:49:06.312913 -0300 -03 m=+4.808514681
+Tiempo de inicio: 2024-02-06 16:49:06.340484 -0300 -03 m=+4.836084849
+Tiempo de inicio: 2024-02-06 16:49:06.372581 -0300 -03 m=+4.868180627
+Tiempo de inicio: 2024-02-06 16:49:06.533462 -0300 -03 m=+5.029057198
+Tiempo de inicio: 2024-02-06 16:49:06.580808 -0300 -03 m=+5.076401571
+Tiempo de inicio: 2024-02-06 16:49:07.829368 -0300 -03 m=+6.324924184
+Tiempo de inicio: 2024-02-06 16:49:07.899848 -0300 -03 m=+6.395402651
+Tiempo de inicio: 2024-02-06 16:49:08.102622 -0300 -03 m=+6.598170264
+Tiempo de inicio: 2024-02-06 16:49:08.123113 -0300 -03 m=+6.618660845
+Tiempo de inicio: 2024-02-06 16:49:08.579383 -0300 -03 m=+7.074916906
+Tiempo de inicio: 2024-02-06 16:49:09.394785 -0300 -03 m=+7.890293973
+Tiempo de inicio: 2024-02-06 16:49:09.786126 -0300 -03 m=+8.281623111
+Tiempo de inicio: 2024-02-06 16:49:09.786132 -0300 -03 m=+8.281629793
+Tiempo de inicio: 2024-02-06 16:49:10.021619 -0300 -03 m=+8.517109885
+Tiempo de inicio: 2024-02-06 16:49:10.925882 -0300 -03 m=+9.421345259
+Tiempo de inicio: 2024-02-06 16:49:11.333791 -0300 -03 m=+9.829242507
+Tiempo de inicio: 2024-02-06 16:49:11.360908 -0300 -03 m=+9.856358748
+Tiempo de inicio: 2024-02-06 16:49:11.555655 -0300 -03 m=+10.051099204
+Tiempo de inicio: 2024-02-06 16:49:11.938791 -0300 -03 m=+10.434223852
+Tiempo de inicio: 2024-02-06 16:49:12.475369 -0300 -03 m=+10.970785924
+Tiempo de inicio: 2024-02-06 16:49:12.9702 -0300 -03 m=+11.465602351
+Tiempo de inicio: 2024-02-06 16:49:13.286294 -0300 -03 m=+11.781686678
+Tiempo de inicio: 2024-02-06 16:49:13.993419 -0300 -03 m=+12.488790167
+Tiempo de inicio: 2024-02-06 16:49:14.499069 -0300 -03 m=+12.994424846
+Tiempo de inicio: 2024-02-06 16:49:14.743733 -0300 -03 m=+13.239081978
+Tiempo de inicio: 2024-02-06 16:49:14.820345 -0300 -03 m=+13.315691751
+[ts:2024-02-06T19:49:14.874230Z][level:error][caller:usecases/search_service.go:29][msg:search by term failed][term:""][error:500 internal_server_error: ][stacktrace:
+	reliability_demo_app/internal/usecases.(*SearchServiceImpl).SearchItemsByTerm
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/usecases/search_service.go:29
+	reliability_demo_app/internal/usecases.(*reportService).GetReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/usecases/report_service.go:28
+	reliability_demo_app/internal/http.(*ReportController).getReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/http/report_controller.go:24
+	github.com/melisource/fury_go-core/pkg/web.(*Router).handle.func1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:173
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.newCompressor.func1.(*Compressor).Handler.func1
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/middleware/compress.go:209
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.HeaderForwarder.func19.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_header_forwarding.go:15
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Panics.func18.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_panics.go:39
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Logger.func17.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_logger.go:38
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Telemetry.func16.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_telemetry.go:45
+	github.com/melisource/fury_go-core/pkg/web.OpenTelemetry.func1.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_otel.go:93
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).routeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:443
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:90
+	github.com/melisource/fury_go-core/pkg/web.(*Router).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:232
+	net/http.serverHandler.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2938
+	net/http.(*conn).serve
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2009]
+[ts:2024-02-06T19:49:14.874572Z][level:error][caller:http/report_controller.go:26][msg:get report failed][error:500 internal_server_error: ][stacktrace:
+	reliability_demo_app/internal/http.(*ReportController).getReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/http/report_controller.go:26
+	github.com/melisource/fury_go-core/pkg/web.(*Router).handle.func1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:173
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.newCompressor.func1.(*Compressor).Handler.func1
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/middleware/compress.go:209
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.HeaderForwarder.func19.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_header_forwarding.go:15
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Panics.func18.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_panics.go:39
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Logger.func17.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_logger.go:38
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Telemetry.func16.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_telemetry.go:45
+	github.com/melisource/fury_go-core/pkg/web.OpenTelemetry.func1.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_otel.go:93
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).routeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:443
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:90
+	github.com/melisource/fury_go-core/pkg/web.(*Router).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:232
+	net/http.serverHandler.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2938
+	net/http.(*conn).serve
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2009]
+Tiempo de inicio: 2024-02-06 16:49:14.875641 -0300 -03 m=+13.370986208
+Tiempo de inicio: 2024-02-06 16:49:14.888888 -0300 -03 m=+13.384232970
+Tiempo de inicio: 2024-02-06 16:49:15.509137 -0300 -03 m=+14.004463095
+Tiempo de inicio: 2024-02-06 16:49:16.268591 -0300 -03 m=+14.763893837
+Tiempo de inicio: 2024-02-06 16:49:16.444031 -0300 -03 m=+14.939329007
+Tiempo de inicio: 2024-02-06 16:49:16.775727 -0300 -03 m=+15.271014600
+Tiempo de inicio: 2024-02-06 16:49:17.313845 -0300 -03 m=+15.809116715
+Tiempo de inicio: 2024-02-06 16:49:17.807 -0300 -03 m=+16.302256615
+[ts:2024-02-06T19:49:17.862275Z][level:error][caller:usecases/search_service.go:29][msg:search by term failed][term:""][error:500 internal_server_error: ][stacktrace:
+	reliability_demo_app/internal/usecases.(*SearchServiceImpl).SearchItemsByTerm
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/usecases/search_service.go:29
+	reliability_demo_app/internal/usecases.(*reportService).GetReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/usecases/report_service.go:28
+	reliability_demo_app/internal/http.(*ReportController).getReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/http/report_controller.go:24
+	github.com/melisource/fury_go-core/pkg/web.(*Router).handle.func1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:173
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.newCompressor.func1.(*Compressor).Handler.func1
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/middleware/compress.go:209
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.HeaderForwarder.func19.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_header_forwarding.go:15
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Panics.func18.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_panics.go:39
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Logger.func17.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_logger.go:38
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Telemetry.func16.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_telemetry.go:45
+	github.com/melisource/fury_go-core/pkg/web.OpenTelemetry.func1.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_otel.go:93
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).routeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:443
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:90
+	github.com/melisource/fury_go-core/pkg/web.(*Router).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:232
+	net/http.serverHandler.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2938
+	net/http.(*conn).serve
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2009]
+[ts:2024-02-06T19:49:17.862563Z][level:error][caller:http/report_controller.go:26][msg:get report failed][error:500 internal_server_error: ][stacktrace:
+	reliability_demo_app/internal/http.(*ReportController).getReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/http/report_controller.go:26
+	github.com/melisource/fury_go-core/pkg/web.(*Router).handle.func1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:173
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.newCompressor.func1.(*Compressor).Handler.func1
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/middleware/compress.go:209
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.HeaderForwarder.func19.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_header_forwarding.go:15
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Panics.func18.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_panics.go:39
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Logger.func17.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_logger.go:38
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Telemetry.func16.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_telemetry.go:45
+	github.com/melisource/fury_go-core/pkg/web.OpenTelemetry.func1.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_otel.go:93
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).routeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:443
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:90
+	github.com/melisource/fury_go-core/pkg/web.(*Router).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:232
+	net/http.serverHandler.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2938
+	net/http.(*conn).serve
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2009]
+Tiempo de inicio: 2024-02-06 16:49:17.863722 -0300 -03 m=+16.358977568
+Tiempo de inicio: 2024-02-06 16:49:18.032033 -0300 -03 m=+16.527282851
+[ts:2024-02-06T19:49:18.092223Z][level:error][caller:usecases/search_service.go:29][msg:search by term failed][term:""][error:500 internal_server_error: ][stacktrace:
+	reliability_demo_app/internal/usecases.(*SearchServiceImpl).SearchItemsByTerm
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/usecases/search_service.go:29
+	reliability_demo_app/internal/usecases.(*reportService).GetReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/usecases/report_service.go:28
+	reliability_demo_app/internal/http.(*ReportController).getReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/http/report_controller.go:24
+	github.com/melisource/fury_go-core/pkg/web.(*Router).handle.func1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:173
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.newCompressor.func1.(*Compressor).Handler.func1
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/middleware/compress.go:209
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.HeaderForwarder.func19.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_header_forwarding.go:15
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Panics.func18.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_panics.go:39
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Logger.func17.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_logger.go:38
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Telemetry.func16.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_telemetry.go:45
+	github.com/melisource/fury_go-core/pkg/web.OpenTelemetry.func1.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_otel.go:93
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).routeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:443
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:90
+	github.com/melisource/fury_go-core/pkg/web.(*Router).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:232
+	net/http.serverHandler.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2938
+	net/http.(*conn).serve
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2009]
+[ts:2024-02-06T19:49:18.092449Z][level:error][caller:http/report_controller.go:26][msg:get report failed][error:500 internal_server_error: ][stacktrace:
+	reliability_demo_app/internal/http.(*ReportController).getReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/http/report_controller.go:26
+	github.com/melisource/fury_go-core/pkg/web.(*Router).handle.func1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:173
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.newCompressor.func1.(*Compressor).Handler.func1
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/middleware/compress.go:209
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.HeaderForwarder.func19.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_header_forwarding.go:15
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Panics.func18.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_panics.go:39
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Logger.func17.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_logger.go:38
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Telemetry.func16.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_telemetry.go:45
+	github.com/melisource/fury_go-core/pkg/web.OpenTelemetry.func1.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_otel.go:93
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).routeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:443
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:90
+	github.com/melisource/fury_go-core/pkg/web.(*Router).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:232
+	net/http.serverHandler.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2938
+	net/http.(*conn).serve
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2009]
+Tiempo de inicio: 2024-02-06 16:49:18.09335 -0300 -03 m=+16.588598434
+Tiempo de inicio: 2024-02-06 16:49:18.13221 -0300 -03 m=+16.627457612
+Tiempo de inicio: 2024-02-06 16:49:18.301628 -0300 -03 m=+16.796869706
+Tiempo de inicio: 2024-02-06 16:49:18.856827 -0300 -03 m=+17.352052637
+Tiempo de inicio: 2024-02-06 16:49:19.383318 -0300 -03 m=+17.878527997
+Tiempo de inicio: 2024-02-06 16:49:19.619086 -0300 -03 m=+18.114288950
+Tiempo de inicio: 2024-02-06 16:49:19.820972 -0300 -03 m=+18.316168591
+Tiempo de inicio: 2024-02-06 16:49:20.262091 -0300 -03 m=+18.757274551
+Tiempo de inicio: 2024-02-06 16:49:20.859565 -0300 -03 m=+19.354729996
+Tiempo de inicio: 2024-02-06 16:49:21.139342 -0300 -03 m=+19.634498994
+Tiempo de inicio: 2024-02-06 16:49:21.345985 -0300 -03 m=+19.841135809
+Tiempo de inicio: 2024-02-06 16:49:21.42127 -0300 -03 m=+19.916418283
+Tiempo de inicio: 2024-02-06 16:49:21.795527 -0300 -03 m=+20.290664028
+Tiempo de inicio: 2024-02-06 16:49:22.378156 -0300 -03 m=+20.873275987
+Tiempo de inicio: 2024-02-06 16:49:22.68135 -0300 -03 m=+21.176461250
+Tiempo de inicio: 2024-02-06 16:49:22.921743 -0300 -03 m=+21.416847082
+Tiempo de inicio: 2024-02-06 16:49:23.14237 -0300 -03 m=+21.637467283
+Tiempo de inicio: 2024-02-06 16:49:23.616624 -0300 -03 m=+22.111706797
+Tiempo de inicio: 2024-02-06 16:49:24.175838 -0300 -03 m=+22.670903459
+Tiempo de inicio: 2024-02-06 16:49:24.438715 -0300 -03 m=+22.933772887
+Tiempo de inicio: 2024-02-06 16:49:24.652574 -0300 -03 m=+23.147625474
+Tiempo de inicio: 2024-02-06 16:49:24.769085 -0300 -03 m=+23.264132739
+Tiempo de inicio: 2024-02-06 16:49:25.142756 -0300 -03 m=+23.637793369
+Tiempo de inicio: 2024-02-06 16:49:25.712027 -0300 -03 m=+24.207047192
+Tiempo de inicio: 2024-02-06 16:49:26.013942 -0300 -03 m=+24.508953091
+Tiempo de inicio: 2024-02-06 16:49:26.227211 -0300 -03 m=+24.722215617
+Tiempo de inicio: 2024-02-06 16:49:26.447594 -0300 -03 m=+24.942591468
+Tiempo de inicio: 2024-02-06 16:49:27.140601 -0300 -03 m=+25.635578069
+Tiempo de inicio: 2024-02-06 16:49:27.538608 -0300 -03 m=+26.033572941
+Tiempo de inicio: 2024-02-06 16:49:27.744568 -0300 -03 m=+26.239527333
+Tiempo de inicio: 2024-02-06 16:49:27.956189 -0300 -03 m=+26.451141861
+Tiempo de inicio: 2024-02-06 16:49:28.074679 -0300 -03 m=+26.569627674
+Tiempo de inicio: 2024-02-06 16:49:28.658888 -0300 -03 m=+27.153819485
+Tiempo de inicio: 2024-02-06 16:49:29.058962 -0300 -03 m=+27.553881630
+Tiempo de inicio: 2024-02-06 16:49:29.490198 -0300 -03 m=+27.985104289
+Tiempo de inicio: 2024-02-06 16:49:29.59807 -0300 -03 m=+28.092973394
+Tiempo de inicio: 2024-02-06 16:49:30.191606 -0300 -03 m=+28.686491719
+Tiempo de inicio: 2024-02-06 16:49:30.458068 -0300 -03 m=+28.952945139
+Tiempo de inicio: 2024-02-06 16:49:31.01017 -0300 -03 m=+29.505030960
+Tiempo de inicio: 2024-02-06 16:49:31.041822 -0300 -03 m=+29.536682465
+Tiempo de inicio: 2024-02-06 16:49:31.565443 -0300 -03 m=+30.060287099
+Tiempo de inicio: 2024-02-06 16:49:31.792728 -0300 -03 m=+30.287564974
+Tiempo de inicio: 2024-02-06 16:49:32.357089 -0300 -03 m=+30.851909947
+Tiempo de inicio: 2024-02-06 16:49:32.570279 -0300 -03 m=+31.065093517
+Tiempo de inicio: 2024-02-06 16:49:33.082598 -0300 -03 m=+31.577396541
+[ts:2024-02-06T19:49:37.094501Z][level:error][caller:usecases/search_service.go:29][msg:search by term failed][term:""][error:500 internal_server_error: ][stacktrace:
+	reliability_demo_app/internal/usecases.(*SearchServiceImpl).SearchItemsByTerm
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/usecases/search_service.go:29
+	reliability_demo_app/internal/usecases.(*reportService).GetReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/usecases/report_service.go:28
+	reliability_demo_app/internal/http.(*ReportController).getReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/http/report_controller.go:24
+	github.com/melisource/fury_go-core/pkg/web.(*Router).handle.func1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:173
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.newCompressor.func1.(*Compressor).Handler.func1
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/middleware/compress.go:209
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.HeaderForwarder.func19.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_header_forwarding.go:15
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Panics.func18.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_panics.go:39
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Logger.func17.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_logger.go:38
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Telemetry.func16.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_telemetry.go:45
+	github.com/melisource/fury_go-core/pkg/web.OpenTelemetry.func1.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_otel.go:93
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).routeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:443
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:90
+	github.com/melisource/fury_go-core/pkg/web.(*Router).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:232
+	net/http.serverHandler.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2938
+	net/http.(*conn).serve
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2009]
+[ts:2024-02-06T19:49:37.094807Z][level:error][caller:http/report_controller.go:26][msg:get report failed][error:500 internal_server_error: ][stacktrace:
+	reliability_demo_app/internal/http.(*ReportController).getReport
+		/Users/francapra/go/src/github.com/mercadolibre/drs/fury_drs-devbego/internal/http/report_controller.go:26
+	github.com/melisource/fury_go-core/pkg/web.(*Router).handle.func1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:173
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.newCompressor.func1.(*Compressor).Handler.func1
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/middleware/compress.go:209
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.HeaderForwarder.func19.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_header_forwarding.go:15
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Panics.func18.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_panics.go:39
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Logger.func17.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_logger.go:38
+	github.com/melisource/fury_go-platform/pkg/internal/infra.defaultRouter.Telemetry.func16.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_telemetry.go:45
+	github.com/melisource/fury_go-core/pkg/web.OpenTelemetry.func1.1
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/mid_otel.go:93
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).routeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:443
+	net/http.HandlerFunc.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2136
+	github.com/go-chi/chi/v5.(*Mux).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.11/mux.go:90
+	github.com/melisource/fury_go-core/pkg/web.(*Router).ServeHTTP
+		/Users/francapra/go/pkg/mod/github.com/melisource/fury_go-core@v1.11.1/pkg/web/router.go:232
+	net/http.serverHandler.ServeHTTP
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2938
+	net/http.(*conn).serve
+		/Users/francapra/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.21.4.darwin-amd64/src/net/http/server.go:2009]

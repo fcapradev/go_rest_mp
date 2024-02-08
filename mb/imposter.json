@@ -1,0 +1,51 @@
+{
+  "port": 10000,
+  "protocol": "http",
+  "recordRequests": true,
+  "stubs": [
+    {
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json"
+            },
+            "body": [
+              {
+                "id": "7537b19d-de68-411a-8085-b15a97aef65d",
+                "name": "bananas",
+                "price": 100.2,
+                "category": "100.2"
+              },
+              {
+                "id": "19985b26-2383-4b3c-b9bc-55cedac28f0e",
+                "name": "ice bucket",
+                "price": 200.2,
+                "category": "100.2"
+              }
+            ]
+          },
+          "behaviors": [{ "wait": 1500 }]
+        },
+        {
+          "is": {
+            "statusCode": 500,
+            "headers": {
+              "Content-Type": "application/json"
+            }
+          },
+          "behaviors": [{ "wait": 1500 }]
+        }
+      ],
+      "predicates": [
+        {
+          "equals": {
+            "method": "GET",
+            "path": "/v1/search"
+          }
+        }
+      ]
+    }
+  ]
+}
